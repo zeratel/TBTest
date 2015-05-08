@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res/com.example.tbtest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--
+    <LinearLayout
+        android:id="@+id/group1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.zcw.togglebutton.ToggleButton
+            android:layout_width="54dp"
+            android:layout_height="30dp" >
+        </com.zcw.togglebutton.ToggleButton>
+
+        <com.zcw.togglebutton.ToggleButton
+            android:layout_width="54dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp" >
+        </com.zcw.togglebutton.ToggleButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <com.zcw.togglebutton.ToggleButton
+            android:layout_width="54dp"
+            android:layout_height="30dp"
+            toggle:borderWidth="2dp"
+            toggle:offBorderColor="#000"
+            toggle:offColor="#ddd"
+            toggle:onColor="#f00"
+            toggle:spotColor="#00f" >
+        </com.zcw.togglebutton.ToggleButton>
+
+        <com.zcw.togglebutton.ToggleButton
+            android:layout_width="54dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            toggle:borderWidth="2dp"
+            toggle:offBorderColor="#000"
+            toggle:offColor="#ddd"
+            toggle:onColor="#f00"
+            toggle:spotColor="#00f" >
+        </com.zcw.togglebutton.ToggleButton>
+    </LinearLayout>
+
+    <com.zcw.togglebutton.ToggleButton
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp" />
+    -->
+
+    <com.zcw.togglebutton.ToggleButton
+        android:layout_width="88dp"
+        android:layout_height="40dp"
+        toggle:selectText="开启"
+        toggle:selectTextColor="#ffffffff"
+        toggle:unSelectText="关闭"
+        toggle:unSelectTextColor="#ff4ebb7f"
+        toggle:touchDistance="12.5dp" 
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
